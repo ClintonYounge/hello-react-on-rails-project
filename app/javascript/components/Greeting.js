@@ -10,9 +10,9 @@ if (loading) {
   }
 
   return (
-    <div key={greetings.id}>
+    <h1 key={greetings.id}>
       {greetings.greeting}
-    </div>
+    </h1>
   )
 }
 
